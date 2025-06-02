@@ -1,6 +1,6 @@
 {
   "build": {
-    "dockerfilePath": "xray-railway/Dockerfile",
+    "dockerfilePath": "Dockerfile",
     "buildCommand": "",
     "startCommand": ""
   },
@@ -10,4 +10,3 @@
     }
   }
 }
-
