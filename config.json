@@ -1,7 +1,5 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
+  "log": { "loglevel": "none" },
   "inbounds": [
     {
       "port": 443,
@@ -10,7 +8,7 @@
         "clients": [
           {
             "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "level": 0
+            "flow": "xtls-rprx-vision"
           }
         ],
         "decryption": "none"
@@ -18,15 +16,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/"
+          "path": "/websocket"
         }
       }
     }
   ],
   "outbounds": [
-    {
-      "protocol": "freedom"
-    }
+    { "protocol": "freedom" }
   ]
 }
-
