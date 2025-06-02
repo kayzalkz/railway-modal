@@ -1,1 +1,13 @@
+{
+  "build": {
+    "dockerfilePath": "xray-railway/Dockerfile",
+    "buildCommand": "",
+    "startCommand": ""
+  },
+  "services": {
+    "xray": {
+      "port": 443
+    }
+  }
+}
 
